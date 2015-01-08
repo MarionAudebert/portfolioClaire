@@ -20,3 +20,6 @@ Technologies utilisées :
 
 ### Voir en ligne 
 https://perso-etudiant.univ-mlv.fr/~tcarpent/temp/claire/index.html
+
+### NB
+Les pages utilisants de l'AJAX ne sont fontionnelles que dans la version en ligne (lien ci-dessus)

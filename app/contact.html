@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang ="fr">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Claire CARPENTIER - Artiste de cirque, equilibre, contorsion</title>
+
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'>
+		<link rel="stylesheet" type="text/css" href="styles/css/main.css">
+	</head>
+	<body>
+		<header class="barre_menu">
+			<nav class="navbar navbar-default barre_menu" role="navigation">
+				<a href="index.html" class="lien_nav_centre_2" title="aller à l'accueil"><h1>Claire Carpentier</h1></a>
+				<div class="bouton-menu-fond">
+					<a href="#" class="bouton-menu"><span class="glyphicon glyphicon glyphicon-align-justify"></span><h6>menu</h6></a>
+				</div>
+				<div class="container barre_menu">
+					<div class="col-sm-2 barre_menu">
+						<a href="numeros.html" class="lien_nav" title="découvrir mes numéros" >Créations</a>
+					</div>
+					<div class="col-sm-2 barre_menu">
+						<a href="galerie.html" class="lien_nav" title="voir mes photos">Galerie</a>
+					</div>
+					<div class="col-sm-4 barre_menu" id="titre_site">
+						<a href="index.html" class="lien_nav lien_nav_centre page_active" title="aller à l'accueil"><h1>Claire Carpentier</h1></a>
+					</div>
+					<div class="col-sm-2 barre_menu">
+						<a href="news.html" class="lien_nav" title="suivez mes news">Actualités</a>
+					</div>
+					<div class="col-sm-2 barre_menu">
+						<a href="contact.html" class="lien_nav page_active" title="me contacter">Contact</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="blur"></div>
+
+		<h2 class="sous-titre-page">artiste de cirque</h2>
+
+		<div class="container main_content contact">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2 class="titre_contact">à propos de moi</h2>
+					<div class="col-sm-6 photo_profil">
+						<img src="img/profil_compress.jpg" alt="Moi"> 
+					</div>
+					<p class="col-sm-6 details">
+						Claire Carpentier<br/>
+						23 ans<br/>
+						Habite Lille<br/>
+						Ecole du Cirque de Lomme<br/>
+					</p>
+					<p class="col-sm-12 para_desc">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					</p>
+
+				</div>
+				<div class="col-sm-6">
+					<h2 class="titre_contact">Envoyez moi un mail</h2>
+					<form onsubmit="sendMail(); return false" id="mail_form">
+						<div class="row">
+							<div class="col-sm-9">
+								<input type="text" name="subject" size="100" placeholder="Sujet de votre message" id="mail_subject" class="input-text"><br/>
+								<input type="email" name="email" size="100" placeholder="Votre adresse mail" class="input-text" id="mail_adress" required/><br/>
+							</div>
+							<div class="col-sm-3 bouton">
+								<input type="submit" value="Envoyer" class="input-submit">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<textarea name="message" id="mail_msg" placeholder="Votre message"  class="msg-area" required></textarea>
+							</div>	
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="titre_contact rond_facebook">Ou retrouvez moi sur
+						<a class="logo_facebook" href="https://www.facebook.com/carpentier.claire" target="_blank">F</a>
+					</h2>
+					
+				</div>
+			</div>
+		</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/mail.js"></script>
+
+
+	</body>
+</html>

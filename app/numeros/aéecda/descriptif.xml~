@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<NUMERO>
+
+	<TITRE>La toupie de l'espace</TITRE>
+
+	<DATE>25/12/2014</DATE>
+
+	<DUREE_MINUTES>3</DUREE_MINUTES>
+
+	<NOMBRE_ARTISTES>1</NOMBRE_ARTISTES>
+
+	<DESCRIPTION_COURTE>
+		I know what you're thinking : "Do I feel lucky?" Well, do ya, punk? 
+	</DESCRIPTION_COURTE>
+
+	<DESCRIPTION_LONGUE>
+		I know what you're thinking. "Did he fire six shots or only five?" Well to tell you the truth in all this excitement I kinda lost track myself. But being this is a .44 Magnum, the most powerful handgun in the world and would blow you head clean off, you've gotta ask yourself one question: "Do I feel lucky?" Well, do ya, punk? 
+	</DESCRIPTION_LONGUE>
+
+</NUMERO>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang ="fr">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Claire CARPENTIER - Artiste de cirque, equilibre, contorsion</title>
+
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'>
+		<link rel="stylesheet" type="text/css" href="styles/css/main.css">
+	</head>
+	<body>
+		<header class="barre_menu">
+			<nav class="navbar navbar-default barre_menu" role="navigation">
+				<a href="index.html" class="lien_nav_centre_2" title="aller à l'accueil"><h1>Claire Carpentier</h1></a>
+				<div class="bouton-menu-fond">
+					<a href="#" class="bouton-menu"><span class="glyphicon glyphicon glyphicon-align-justify"></span><h6>menu</h6></a>
+				</div>
+				<div class="container barre_menu">
+					<div class="col-sm-2 barre_menu">
+						<a href="numeros.html" class="lien_nav page_active" title="découvrir mes numéros" >Créations</a>
+					</div>
+					<div class="col-sm-2 barre_menu">
+						<a href="galerie.html" class="lien_nav" title="voir mes photos">Galerie</a>
+					</div>
+					<div class="col-sm-4 barre_menu" id="titre_site">
+						<a href="index.html" class="lien_nav lien_nav_centre page_active" title="aller à l'accueil"><h1>Claire Carpentier</h1></a>
+					</div>
+					<div class="col-sm-2 barre_menu">
+						<a href="news.html" class="lien_nav" title="suivez mes news">Actualités</a>
+					</div>
+					<div class="col-sm-2 barre_menu">
+						<a href="contact.html" class="lien_nav" title="me contacter">Contact</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="blur"></div>
+		<div class="numero-blur">
+			<div class="container numero-appercu-box">
+				<div class="row numero-appercu-box">
+					<div class="col-sm-8 numero-appercu-img">
+					</div>
+					<div class="col-sm-4 numero-appercu-desc">
+						<a id="fermer-appercu">x</a>
+						<h3>numéros - créations</h3>
+						<ul></ul>
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h2 class="sous-titre-page">artiste de cirque</h2>
+
+		<div class="container-fluid main_content">
+			<p id="ok-js">Veuillez activer le JavaScript</p>
+			<div class="spinner">
+				<div class="bounce1"></div>
+				<div class="bounce2"></div>
+				<div class="bounce3"></div>
+			</div>
+		</div>
+
+
+	<script src="js/jquery.min.js"></script>
+
+	<script>
+		function appercuNumero()
+		{
+			$.getScript("js/apercu-numero.js");
+		}
+	</script>
+
+	<script src="js/restyle-global.js"></script>
+	<script src="js/charger-numeros.js"></script>
+
+	</body>
+</html>

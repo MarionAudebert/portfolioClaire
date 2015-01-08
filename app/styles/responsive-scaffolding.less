@@ -1,0 +1,232 @@
+// Screen sizes Bootstrap :	320px, 480px, 768px, 992px, 1200px
+// Screen sizes perso : 754px;
+
+/****************************************
+		HEADER / NAV
+****************************************/
+
+@media screen and (max-width: 767px)
+{
+	a.bouton-menu
+	{
+		display: inline-block;
+	}
+
+	.container.barre_menu
+	{
+		position: fixed;
+		width: 100%;
+		top: 100px;
+		z-index: 20;
+	}
+
+	a.lien_nav_centre_2
+	{
+		display: inline-block;
+	}
+
+	a.lien_nav:hover,
+	.page_active
+	{
+		border-bottom: none;
+		color: @color-texte-rose !important;
+	}
+
+	a.lien_nav_centre > h1,
+	a.lien_nav_centre_2 > h1
+	{
+		font-size: 38px;
+	}
+
+	div.rond_accueil.petit_rond_1,
+	div.rond_accueil.petit_rond_2,
+	div.rond_accueil.moyen_rond_1,
+	div.rond_accueil.moyen_rond_2,
+	div.rond_accueil.moyen_rond_3,
+	div.rond_accueil.moyen_rond_4
+	{
+		display: none;
+	}
+
+	div.container-fluid.main_content,
+	div.container.main_content,
+	div.container.numero-appercu-box
+	{
+		padding-top: @padding-top-content + 4;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+	a.lien_nav_centre > h1,
+	a.lien_nav_centre_2 > h1
+	{
+		font-size: 26px;
+	}
+
+	a.lien_nav
+	{
+		font-size: 20px;
+	}
+
+	div.rond_accueil.petit_rond_1,
+	div.rond_accueil.petit_rond_2,
+	div.rond_accueil.moyen_rond_1,
+	div.rond_accueil.moyen_rond_2,
+	div.rond_accueil.moyen_rond_3,
+	div.rond_accueil.moyen_rond_4
+	{
+		display: none;
+	}
+
+	div.container-fluid.main_content,
+	div.container.main_content,
+	div.container.numero-appercu-box
+	{
+		padding-top: @padding-top-content + 2;
+	}
+}
+
+@media screen and (min-width: 992px)  and (max-width: 1200px)
+{
+	a.lien_nav_centre > h1,
+	a.lien_nav_centre_2 > h1
+	{
+		font-size: 34px;
+	}
+}
+
+
+/****************************************
+		NUMEROS
+****************************************/
+
+@media screen and (min-width: 768px) and (max-width: 874px)
+{
+	div.numero-box
+	{
+		width: @taille-numero-box-f;
+		height: @taille-numero-box-f;
+
+		padding-top: @taille-numero-box-f - @hauteur-numero-desc;
+	}
+
+	div.numero-box:hover
+	{
+		padding-top: @taille-numero-box-f - @hauteur-numero-desc-HOVER-f;
+	}
+
+	div.numero-box:hover > div.numero-desc
+	{
+		height: @hauteur-numero-desc-HOVER-f;
+	}
+
+	div.numero-desc > h3
+	{
+		font-size: @font-size-numero-desc-f;
+	}
+}
+
+@media screen and (min-width: 875px) and (max-width: 1099px)
+{
+	div.numero-box
+	{
+		width: @taille-numero-box-e;
+		height: @taille-numero-box-e;
+
+		padding-top: @taille-numero-box-e - @hauteur-numero-desc;
+	}
+
+	div.numero-box:hover
+	{
+		padding-top: @taille-numero-box-e - @hauteur-numero-desc-HOVER-e;
+	}
+
+	div.numero-box:hover > div.numero-desc
+	{
+		height: @hauteur-numero-desc-HOVER-e;
+	}
+
+	div.numero-desc > h3
+	{
+		font-size: @font-size-numero-desc-e;
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1274px)
+{
+	div.numero-box
+	{
+		width: @taille-numero-box-d;
+		height: @taille-numero-box-d;
+
+		padding-top: @taille-numero-box-d - @hauteur-numero-desc;
+	}
+
+	div.numero-box:hover
+	{
+		padding-top: @taille-numero-box-d - @hauteur-numero-desc-HOVER-d;
+	}
+
+	div.numero-box:hover > div.numero-desc
+	{
+		height: @hauteur-numero-desc-HOVER-d;
+	}
+
+	div.numero-desc > h3
+	{
+		font-size: @font-size-numero-desc-d;
+	}
+}
+
+@media screen and (min-width: 1275px) and (max-width: 1499px)
+{
+	div.numero-box
+	{
+		width: @taille-numero-box-c;
+		height: @taille-numero-box-c;
+
+		padding-top: @taille-numero-box-c - @hauteur-numero-desc;
+	}
+
+	div.numero-box:hover
+	{
+		padding-top: @taille-numero-box-c - @hauteur-numero-desc-HOVER-c;
+	}
+
+	div.numero-box:hover > div.numero-desc
+	{
+		height: @hauteur-numero-desc-HOVER-c;
+	}
+
+	div.numero-desc > h3
+	{
+		font-size: @font-size-numero-desc-c;
+	}
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1750px)
+{
+	div.numero-box
+	{
+		width: @taille-numero-box-b;
+		height: @taille-numero-box-b;
+
+		padding-top: @taille-numero-box-b - @hauteur-numero-desc;
+	}
+
+	div.numero-box:hover
+	{
+		padding-top: @taille-numero-box-b - @hauteur-numero-desc-HOVER-b;
+	}
+
+	div.numero-box:hover > div.numero-desc
+	{
+		height: @hauteur-numero-desc-HOVER-b;
+	}
+
+	div.numero-desc > h3
+	{
+		font-size: @font-size-numero-desc-b;
+	}
+}
